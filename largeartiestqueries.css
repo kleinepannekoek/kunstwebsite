@@ -1,0 +1,175 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .main_nav {
+        float: right;
+    }
+    
+    .main_nav li {
+        display: inline-block; 
+        margin-left: 50px;
+    }
+
+    .content,
+    .content2,
+    .content3,
+    .content4,
+    .content5 {
+        text-align: left;
+    }
+    
+    .art_photos img, 
+    .art_photos2 img,
+    .art_photos3 img,
+    .art_photos4 img,
+    .art_photos5 img {
+    height: auto;
+    width: 300px; 
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+    p { 
+        width: 80%;
+    }
+
+}
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    * {
+        max-width: 1023px;
+    }
+    
+    .main_nav {
+        float: right;
+    }
+    
+    .main_nav li {
+        display: inline-block; 
+        margin-left: 50px;
+    }
+
+    .art_photos img, 
+    .art_photos2 img,
+    .art_photos3 img,
+    .art_photos4 img,
+    .art_photos5 img  {
+    display: block;
+    height: auto;
+    width: 200px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    }
+
+    .content,
+    .content2,
+    .content3,
+    .content4,
+    .content5 {
+        text-align: left;
+    }
+
+    p {
+        width: 80%;
+    }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    * {
+        max-width: 768px;
+    }
+    
+    .main_nav {
+        float: right;
+    }
+    
+    .main_nav li {
+        display: inline-block; 
+        margin-left: 50px;
+    }
+
+    .art_photos img, 
+    .art_photos2 img,
+    .art_photos3 img,
+    .art_photos4 img,
+    .art_photos5 img  {
+    display: block;
+    height: auto;
+    width: 150px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    }
+
+    p {
+        width: 80%;
+        font-size: 80%;
+    }
+
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    * {
+        max-width: 480px; 
+    } 
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .main_nav {
+        float: right;
+    }
+    
+    .main_nav li {
+        display: inline-block; 
+        margin-left: 25px;
+        font-size: 80%;
+    }
+
+    .content,
+    .content2,
+    .content3,
+    .content4,
+    .content5 {
+        margin-left: 20px;
+        font-size: 80%;
+    }
+
+    .art_photos img, 
+    .art_photos2 img,
+    .art_photos3 img,
+    .art_photos4 img,
+    .art_photos5 img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.text {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+p {
+    width: 100%;
+    font-size: 80%;
+    text-align: center;
+}   
+
+footer {
+    font-size: 80%;
+    padding: 20px;
+    margin-left: 1px;
+} 
+}
